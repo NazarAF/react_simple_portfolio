@@ -18,10 +18,10 @@ function Sidebar() {
    return (
       <div id="sidebar" className="bg-dark sidebar-container text-center">
          <Row className="sidebar">
-            <a href="/#about" className="sidebar-content">
+            <a href="#about" className="sidebar-content">
                <FontAwesomeIcon icon={faUser} className="icon" />
             </a>
-            <a href="/#description" className="sidebar-content">
+            <a href="#description" className="sidebar-content">
                <FontAwesomeIcon icon={faAddressCard} className="icon" />
             </a>
             <Col className="sidebar-content">
@@ -32,7 +32,7 @@ function Sidebar() {
             </a>
             <a href="#contact" className="sidebar-content">
                <FontAwesomeIcon icon={faMessage} className="icon" />
-            </a>  
+            </a>
          </Row>
       </div>
    );
