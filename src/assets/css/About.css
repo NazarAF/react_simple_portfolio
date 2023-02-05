@@ -1,0 +1,181 @@
+:root {
+    --dark: #282c34;
+    --light: #f8f8f2;
+    --dark-gray: #7f7f7f;
+    --red: #da6672;
+    --blue: #4e94c6;
+    --purple: #b278dd;
+    --orange: #d19a66;
+    --green: #69b779;
+}
+
+.purple {
+    color: var(--purple);
+}
+
+.red {
+    color: var(--red);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.green {
+    color: var(--green);
+}
+
+
+#about {
+    height: 100vh;
+    background: var(--dark);
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus {
+  shadow: none;
+  outline-offset: -2px;
+}
+
+.line-light {
+    width: 40px;
+    height: 100vh;
+    left: 5vw;
+    position: relative;
+}
+
+.line-light::after, .line-light::before {
+    content: '';
+    position: absolute;
+    margin: auto;
+    width: 5px;
+    height: 48%;
+    background: var(--light);
+}
+
+.line-light::after {
+    top: 0;
+}
+
+.line-light::before {
+    bottom: 0;
+}
+
+.dot-light {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 5px solid var(--light);
+    background: var(--dark);
+    position: absolute;
+    margin-left: -17.5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.inner-dot-light {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid var(--light);
+    background: var(--light);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.title-light {
+    color: var(--light);
+    width: 100vw;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 47.5%;
+    left: 13vw;
+    bottom: 1vh;
+}
+
+.modal-header {
+    background: var(--dark);
+    color: var(--light);
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-close {
+    color: var(--light);
+    shadow: none;
+    border: none;
+}
+
+.modal-body {
+    background-color: var(--dark-gray);
+}
+
+.half-modal-light {
+    height: 89.73vh;
+    margin-left: 1.2vw;
+    background: var(--light);
+}
+
+.half-modal-dark {
+    height: 89.73vh;
+    margin-right: 1.2vw;
+    background: var(--dark);
+}
+
+.text-light {
+    color: var(--light);
+    font-size: 1.5rem;
+    position: absolute;
+    top: 53vh;
+    left: 10vw;
+    width: 100vw;
+}
+
+.text-description-light {
+    color: var(--purple);
+    font-size: 1.5rem;
+    position: absolute;
+    top: 57vh;
+    left: 8.5vw;
+    width: 100vw;
+}
+
+.hidden-button {
+    display: none;
+}
+
+.hidden-light {
+    color: var(--dark);
+    font-size: 1.5rem;
+    position: absolute;
+    padding-top: 15vh;
+    height: 50vh;
+    width: 80vw;
+}
+
+.hidden-link-light {
+    color: var(--dark);
+}
+
+.hidden-link-light:hover {
+    color: var(--light);
+}
+
+.hidden-light:hover {
+    color: var(--light);
+}

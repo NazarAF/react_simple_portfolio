@@ -1,0 +1,28 @@
+:root {
+    --dark: #282c34;
+    --light: #f8f8f2;
+    --red: #da6672;
+    --blue: #4e94c6;
+    --purple: #b278dd;
+    --orange: #d19a66;
+    --green: #69b779;
+}
+
+#contact {
+    height: 100vh;
+    background: var(--light);
+}
+
+.dark {
+    color: var(--dark);
+}
+
+.light {
+    color: var(--light);
+}
+
+.sosLink {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}

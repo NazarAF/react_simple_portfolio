@@ -1,0 +1,143 @@
+:root {
+    --light: #282c34;
+    --dark: #f8f8f2;
+    --red: #da6672;
+    --blue: #4e94c6;
+    --purple: #b278dd;
+    --orange: #d19a66;
+    --green: #69b779;
+}
+
+#description {
+    height: 100vh;
+    background: var(--light);
+}
+
+.line-dark {
+    width: 40px;
+    height: 100vh;
+    left: 5vw;
+    position: relative;
+}
+
+.line-dark::after, .line-dark::before {
+    content: '';
+    position: absolute;
+    margin: auto;
+    width: 5px;
+    height: 48%;
+    background: var(--dark);
+}
+
+.line-dark::after {
+    top: 0;
+}
+
+.line-dark::before {
+    bottom: 0;
+}
+
+.dot-dark {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 5px solid var(--dark);
+    background: var(--light);
+    position: absolute;
+    margin-left: -17.5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.inner-dot-dark {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid var(--dark);
+    background: var(--dark);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.title-dark {
+    color: var(--dark);
+    width: 100vw;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    top: 47.5%;
+    left: 13vw;
+    bottom: 1vh;
+}
+
+.text-dark {
+    color: var(--dark);
+    font-size: 1.5rem;
+    position: absolute;
+    top: 53vh;
+    left: 10vw;
+    width: 100vw;
+}
+
+.hidden-dark {
+    color: var(--light);
+    font-size: 1.5rem;
+    position: absolute;
+    padding-top: 15vh;
+    height: 50vh;
+    width: 80vw;
+}
+
+.hidden-dark:hover {
+    color: var(--dark);
+}
+
+.progress-bar-container {
+    width: 70vw;
+}
+
+.desc-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-right: 2vw;
+}
+
+.bar {
+    margin: 0;
+    padding: 0;
+    width: 20vw;
+}
+
+.bg-bar-red {
+    background-color: var(--red)!important;
+}
+
+.bg-bar-blue {
+    background-color: var(--blue)!important;
+}
+
+.bg-bar-purple {
+    background-color: var(--purple)!important;
+}
+
+.bg-bar-orange {
+    background-color: var(--orange)!important;
+}
+
+.bg-bar-green {
+    background-color: var(--green)!important;
+}
+
+.label-bar {
+    width: 20vw;
+    margin: 0;
+    text-align: center;
+}
